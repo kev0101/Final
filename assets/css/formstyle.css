@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-register {
+    width: 550px;
+    background: rgb(25, 12, 201);
+    padding: 25px;
+    margin: auto;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 20px rgb(9, 9, 105);   
+    margin-top: 30px;
+
+
+}
+
+.form-register h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #021229;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #59b4d8;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18;
+    line-height: 40px;
+}
+
+.form-register a{
+    color:white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px; 
+    
+    
+}
+/*Efectos del Boton*/
+
+.botons:focus,.botons:hover{box-shadow:0 .5em .5em -.4em var(--hover);-webkit-transform:translateY(-.25em);transform:translateY(-.25em)}
+@-webkit-keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+@keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+.botons{--color:#c6f107;--hover:#d2f539}
+button{color:var(--color);transition:.25s}
+button:focus,button:hover{border-color:var(--hover);color:#fff}
+body{color:#fff;background:#17181c;font:300 1em 'Fira Sans',sans-serif;justify-content:center;align-content:center;align-items:center;text-align:center;min-height:100vh;display:flex}
+button{background:0 0;border:2px solid;font:inherit;line-height:1;margin:.5em;padding:1em 2em}
+h1{font-weight:400}
+
+
+
+body {
+    background-image: url(../css/img/fonfoRegistro.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-color: white;
+    
+}
+
+.form-register text{
+    background: white;
+}
+
+/*CALENDARIO*/
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg-calendar: #1b1e22;
+    --color-cell: #e3e3e3;
+    --color-cell-disabled: #424649;
+}
+
+.root {
+    min-height: 30vh;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    padding: 20px 10px;
+    background-color: var(--color-bg-calendar);
+    border-radius: 3px;
+    width: 100%;
+    max-width: 300px;
+    font-family: sans-serif;
+}
+
+.calendar_header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.calendar .control {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.grid_header, .grid_body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.grid_header {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.grid_body {
+    grid-auto-rows: 40px;
+    color: var(--color-cell);
+}
+
+.grid_cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_cell--gd {
+    cursor: pointer;
+}
+
+.grid_cell--selected {
+    color: var(--color-bg-calendar);
+    background-color: rgb(199, 231, 16);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--color-bg-calendar) inset;
+}
+
+.grid_cell--disabled {
+    color: var(--color-cell-disabled);
+    cursor: not-allowed;
+}
+
+.dispo{
+  
+  margin-left: 90px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
